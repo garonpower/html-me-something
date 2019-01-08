@@ -1,28 +1,62 @@
 /*Element Selectors */
-header {
-    background-color: black;
-    width: 750px;
-    padding: 25px;
-    margin-left: -20px;
-    text-align: center;
-    color: orangered
+* {
+    box-sizing: border-box
 }
 body {
-    background-color: white;
-    width: 750px;
-    padding: 25px;
-    border: 2px rgb(116, 14, 14);
-    margin: 25px 50px;
+    margin: 0;
     font-family: 'Vollkorn', serif;
     font-size: 20px;
 }
-section {
-    background-color: white;
-    width: 750px;
-    border: 2px black;
-}
 
 /*Class Selectors */
+.header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: orangered
+}
+.topnav {
+    overflow: hidden;
+    background-color: black
+}
+.topnav a {
+    float: left;
+    dispay: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: orangered;
+    color: black;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
 .caption {
     text-align: center;
     color: dimgrey;

@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-    <meta charset="UFT-8">
     <title>HTML Me Assignment</title>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
 </head>
-
 <body>
    <article>
        <main>
-        <header>  
+        <div class="header">
             <h5>LaunchCode LC101 / Web Development</h5>  
             <h1>HTML Me Something Assignment</h1>
             <h5 id="author">By Garon Power on Tuesday, January 8, 2019</h5>
-        </header>
+        </div>
+        <div class="topnav">
+            <a href="https://www.launchcode.org/">LaunchCode</a>
+            <a href="https://garonpower.com">Garon Power</a>
+            <a href="#">Link</a>
+        </div>
+        <div class="row">
+            <div class="column side">
+                <h2><p>First Web Development assignment in 2019</p></h2>
+                <p>Click LaunchCode in the menu above to learn more></p>
+            </div>
+            <div class="column middle">
 
                 <section>
                         <h1>Restoring an Old Craftsman Tablesaw</h1> 
@@ -87,6 +96,7 @@
                             <li>Electrolysis</li>
                             <li>Evapo-Rust</li>
                             <li>Rust Converter</li>
+                            </ul>
                         <h3>Good Old Fashioned Elbow Grease</h3>
                         <p>Before I used any of the fancy and fun procedures, I used good old fashioned elbow grease to prep the surfaces. I
                             think this goes without explaining and lacks any real mystery. I did a lot of cleaning, grinding with a wire-wheel,
@@ -118,9 +128,9 @@
                                     They aided window operation through ropes and pulleys.)</li>
                                 <li>Wire these together and connect them to the red lead of the battery charger.</li>
                                 <li>Power up the charger and wait.</li>
-                            </ol></br>
-                            <i class="quote">If you want to try it, do your due diligence and research. Learn first before you attempt it. My description is for
-                                basic understanding of the process not how to do it.</i>
+                                </ol>
+                            <p><i class="quote">If you want to try it, do your due diligence and research. Learn first before you attempt it. My description is for
+                                basic understanding of the process not how to do it.</i></p>
                         <h3>Evapo-Rust</h3>
                         <img src="https://i1.wp.com/garonpower.com/wp-content/uploads/2018/11/EvapoRust_Retina.png?resize=768%2C259&ssl=1"
                         alt="EvapoRust Icon" style="width: 750px; height: 252.93px">
@@ -144,7 +154,6 @@
                         <p>The base coat is as smooth as your applicator. I brushed mine on and found that I needed to wet sand after before painting.</p>
                         <p>It purports to be able to chemically convert rust into an inert, black protective barrier. Based on my experience
                             with the product it is working as advertised. Time will ultimately tell.</p>
-                        </ul>
                 </section>
 
                 <section>
@@ -212,11 +221,20 @@
                             the videos of the restoration on YouTube.</p>
                         <p>Thanks for reading!</p>
                 </section>
+            </div>
+
+            <div class="column side">
+                <h2>Upcomming Events</h2>
+                <p>There will be a beer and pizza party downstairs after class on March 14th. It is the last class before St. Paticks
+                    day and we will celebrate it as St. Practice Day!</p>
+                    <p>RSVP in the #slack channel @uptonogood!</p>
+            </div>
+        </div>
         </main>
 
-        <footer>
+        <div class="footer">
             <p>&copy; 2019 Garon Power</p>
-        </footer>
+        </div>
         
    </article>
 </body>
