@@ -1,0 +1,19 @@
+header {
+    width: 750px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    color: orangered
+}
+body {
+    background-color: white;
+    width: 750px;
+    padding: 25px;
+    border: 2px rgb(116, 14, 14);
+    margin: 25px;
+}
+section {
+    background-color: white;
+    width: 750px;
+    border: 2px black;
+}
