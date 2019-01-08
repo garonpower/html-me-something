@@ -1,7 +1,9 @@
+/*Element Selectors */
 header {
+    background-color: black;
     width: 750px;
     padding: 25px;
-    margin: 25px;
+    margin-left: -20px;
     text-align: center;
     color: orangered
 }
@@ -10,10 +12,28 @@ body {
     width: 750px;
     padding: 25px;
     border: 2px rgb(116, 14, 14);
-    margin: 25px;
+    margin: 25px 50px;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
 }
 section {
     background-color: white;
     width: 750px;
     border: 2px black;
+}
+
+/*Class Selectors */
+.caption {
+    text-align: center;
+    color: dimgrey;
+}
+.quote {
+    color: darkred;
+    font-size: 125%;
+}
+
+/*Id Selectors */
+#author {
+    text-align: center;
+    color: white;
 }
